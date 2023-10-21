@@ -351,6 +351,11 @@ button:hover .button-text {
     padding: 0px;
 }
 
+.lildesc2 p {
+    margin-top: 0px;
+
+}
+
 
 .productcards {
     display: flex;
@@ -475,4 +480,9 @@ button:hover .button-text {
 
 .introhead span {
     margin-right: 10px;
+}
+
+.font2 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 28px;
 }
