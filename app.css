@@ -612,3 +612,66 @@ button:hover .button-text {
   font-size: 20px;
   line-height: 24.38px;
 }
+
+.updateSection {
+  width: 100%;
+  padding: 1px;
+}
+
+.updates {
+  width: 80%;
+  margin: 96px auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.updates h2 {
+  font-size: 48px;
+  line-height: 68px;
+  text-align: start;
+  width: 35%;
+
+  height: 100%;
+}
+
+.updates span {
+  color: #ff6452;
+}
+
+.updatebtn {
+  align-self: center;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  height: fit-content;
+  border: 1px #6d6d6d solid;
+  padding: 10px 10px;
+  border-radius: 40px;
+}
+
+.updatebtn input {
+  outline: none;
+  border: none;
+  margin: 20px;
+}
+
+.updatebtn button {
+  background: #ff6452;
+  color: white;
+
+  right: 0;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 16px 28px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+#inp::placeholder {
+  color: #6d6d6d;
+  opacity: 0.6;
+  font-size: medium;
+}
